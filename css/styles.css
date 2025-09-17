@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+header h1 {
+  color: #2a7ae2;
+  font-size: 3em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #2a7ae2;
+  font-size: 2.2em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.animal-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.animal-list li a {
+  display: block;
+  background-color: #e9f2fc;
+  padding: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #2a7ae2;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.animal-list li a:hover {
+  background-color: #d2e5f9;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #555;
+  background-color: #e9f2fc;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: #d2e5f9;
+  color: #2a7ae2;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+}
+
+footer a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for individual animal pages */
+.animal-info {
+  text-align: center;
+}
+
+.animal-info img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.animal-info p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: left;
+}
