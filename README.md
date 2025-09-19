@@ -1,4 +1,4 @@
-# Shangli and Xinjian's Zoo
+# Shangli and Xingjian's Zoo
 
 Team: Shangli Chen (ShangliChen), Xingjian Liao(XLiao123)
 
